@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap'); /* Check this css3 */
+
+body {
+    margin: 0;
+    margin-bottom: 5rem;
+    background-color: #e3e0cf;
+}
+.continer {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    color: #4756df;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    width: 100%;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
+    position: fixed;
+    top: 0;
+}
+#menu {
+    float: right;
+    padding-right: 4rem;
+    height: 100%;
+    margin-top: 0.5rem;
+}
+.list-items {
+    display: inline;
+
+}
+#brand {
+    display: inline-block;
+    padding-left: 6rem;
+}
+.list-items a {
+    color: #4756df;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 4rem;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff7235;
+    transition: 0.3s;
+}
+section {
+    /* text-align: center; */
+}
+/* .about-section */
+#profile {
+    width: 30rem;
+    border-radius: 4rem;
+    box-shadow: 3px 3px 2rem grey;
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
+.about-section {
+    display: inline-block;   
+    margin-left: 15rem;
+}
+#about {
+box-shadow: 3px 3px 2rem grey;
+border-radius: 1rem;
+margin-left: 3rem;
+padding: 1rem;
+}
+#more-about {
+    margin-top: 5rem;
+}
+#more-about > h2 {
+    text-align: center;
+}
+#more-about > p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+#upper-skills-container {
+    /* padding: 50rem; */
+    /* margin-left: 200rem; */
+    display: block;
+    /* margin: auto;
+     */
+     text-align: center;
+     margin-bottom: 1rem;
+}
+#lower-skills-container {
+    margin-bottom: 5rem;
+}
+/* .upper-skills {
+    display: inline;
+    padding: 0.25rem;
+    border: 5px solid black;
+    text-align: center;
+} */
+/* .upper-skill {
+    display: inline-block;
+    width: 5rem;
+    height: 15rem;
+    border: 5px solid black;
+    padding-right: 15rem;
+    text-align: center;
+    /* overflow: hidden; */
+
+/* } */ 
+.skills {
+    width: 14rem;
+    height: 14rem;
+    text-align: center;  
+    box-shadow: 3px 3px 2rem grey;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.card-section, .projects-section, .form-section {
+    text-align: center;
+}
+.column {
+    display: inline-block;
+    width: 25rem;
+    height: 20rem;
+    box-shadow: 3px 3px 2rem grey;
+    border-radius: 1rem;
+    margin: 4rem 1rem 4rem auto;
+    padding-bottom: 1rem;
+}
+.project-pic {
+    width: 14rem;
+    height: 7rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+.project-link {
+       color: #4756df;
+       font-weight: 900;
+       font-family: 'Roboto', sans-serif;
+       text-decoration: none;
+       margin-bottom: 6rem;
+}
+#contact-form {
+    width: 30rem;
+    height: 25rem;
+    box-shadow: 3px 3px 2rem grey;
+    /* text-align: center; */
+    margin-left: 43rem;
+    margin-top: 4rem;
+    /* margin-bottom: 4rem; */
+    padding: 2rem;
+    color: #4756df;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    border-radius: 8px;
+}
+input, textarea, button {
+    width: 30rem;
+    height: 1.5rem;
+    border: 2px solid #4756df;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+textarea {
+    resize: none;
+    height: 9rem;
+    margin-bottom: -1.8rem;
+    width: 30.2rem;
+}
+button {
+    height: 2rem;
+    width: 30.75rem;
+}
+button:hover {
+    background-color: #4756df;
+}
+.social-media {
+    width: 2rem;
+    height: 2rem;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
