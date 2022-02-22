@@ -3,12 +3,13 @@
 body {
     margin: 0;
     margin-bottom: 5rem;
-    background-color: #e3e0cf;
+    background-color: rgb(17, 61, 27) !important;
     height: 100vh;
 }
-.continer {
-    display: flex;
-    flex-direction: row;
+.internal-container {
+    /* display: flex;
+    flex-direction: row; */
+    background-color: rgba(185, 159, 159, 0.637) !important;
 }
 nav {
     color: #4756df;
@@ -50,15 +51,18 @@ section {
 }
 /* .about-section */
 #profile {
-    width: 30rem;
-    border-radius: 4rem;
-    box-shadow: 3px 3px 2rem grey;
+    width: 15rem;
+    height: 20rem;
+    /* border-radius: 50%; */
+    /* box-shadow: 3px 3px 2rem grey; */
     margin-top: 10rem;
-    margin-left: 20rem;
+    /* padding-right: 1rem; */
+    /* margin-left: 20rem; */
 }
 .about-section {
     display: inline-block;   
     margin-left: 15rem;
+    /* background-color: gray; */
 }
 #about {
 box-shadow: 3px 3px 2rem grey;
@@ -88,32 +92,17 @@ p {
     /* margin: auto;
      */
      text-align: center;
+     margin-top: 5rem;
      margin-bottom: 1rem;
 }
 #lower-skills-container {
     margin-bottom: 5rem;
-}
-/* .upper-skills {
-    display: inline;
-    padding: 0.25rem;
-    border: 5px solid black;
-    text-align: center;
-} */
-/* .upper-skill {
-    display: inline-block;
-    width: 5rem;
-    height: 15rem;
-    border: 5px solid black;
-    padding-right: 15rem;
-    text-align: center;
-    /* overflow: hidden; */
-
-/* } */ 
+} 
 .skills {
     width: 14rem;
     height: 14rem;
     text-align: center;  
-    box-shadow: 3px 3px 2rem grey;
+    box-shadow: 3px 3px 2rem rgba(0, 0, 0, 0.568);
     border-radius: 1rem;
     margin-right: 1rem;
 }
@@ -203,5 +192,12 @@ footer, #credit {
     margin-top: 4rem;
     padding-top: 1rem;
 }
+
+/* #about-content,
+#card-section,
+#projects-section,
+form-section {
+    background-color: gray;
+} */
 
 
