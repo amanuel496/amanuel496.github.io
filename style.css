@@ -7,19 +7,7 @@ body {
     height: 100vh;
 }
 .internal-container {
-    /* display: flex;
-    flex-direction: row; */
     background-color: rgba(185, 159, 159, 0.637) !important;
-}
-nav {
-    color: #4756df;
-    background-color: rgb(121, 102, 102);
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0;
-    width: 100%;
-    box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
-    position: fixed;
-    top: 0;
 }
 #menu {
     float: right;
@@ -46,23 +34,14 @@ a:hover {
     color: #ff7235;
     transition: 0.3s;
 }
-section {
-    /* text-align: center; */
-}
-/* .about-section */
 #profile {
-    width: 15rem;
+    width: 20rem;
     height: 20rem;
-    /* border-radius: 50%; */
-    /* box-shadow: 3px 3px 2rem grey; */
-    margin-top: 10rem;
-    /* padding-right: 1rem; */
-    /* margin-left: 20rem; */
+    /* margin-top: -10rem; */
 }
 .about-section {
     display: inline-block;   
     margin-left: 15rem;
-    /* background-color: gray; */
 }
 #about {
 box-shadow: 3px 3px 2rem grey;
@@ -86,14 +65,10 @@ p {
     font-size: large;
 }
 #upper-skills-container {
-    /* padding: 50rem; */
-    /* margin-left: 200rem; */
     display: block;
-    /* margin: auto;
-     */
      text-align: center;
      margin-top: 5rem;
-     margin-bottom: 1rem;
+     margin-bottom: 1rem;     
 }
 #lower-skills-container {
     margin-bottom: 5rem;
@@ -120,8 +95,8 @@ p {
     padding-bottom: 1rem;
 }
 .project-pic {
-    width: 14rem;
-    height: 7rem;
+    width: 10rem;
+    height: 5rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: -1rem;
@@ -131,21 +106,18 @@ p {
        font-weight: 900;
        font-family: 'Roboto', sans-serif;
        text-decoration: none;
-       margin-bottom: 6rem;
 }
 #contact-form {
     width: 30rem;
     height: 25rem;
-    box-shadow: 3px 3px 2rem grey;
-    /* text-align: center; */
-    margin-left: 43rem;
+    margin: auto;
     margin-top: 4rem;
-    /* margin-bottom: 4rem; */
-    padding: 2rem;
     color: #4756df;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     border-radius: 8px;
+    background-color: rgba(175, 171, 171, 0) !important;
+    box-shadow: 3px 3px 2rem rgba(0, 0, 0, 0.568);
 }
 input, textarea, button {
     width: 30rem;
@@ -162,7 +134,7 @@ textarea {
 }
 button {
     height: 2rem;
-    width: 30.75rem;
+    width: 30rem;
 }
 button:hover {
     background-color: #4756df;
@@ -178,8 +150,8 @@ aside {
     right: 1%;
     bottom: 50%;
 }
-footer, #credit {
-    background-color: rgb(121, 102, 102);
+footer{
+    background-color: #292b2c;
     color: #4756df;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
@@ -190,14 +162,16 @@ footer, #credit {
     text-decoration: none;
     margin-bottom: 0;
     margin-top: 4rem;
-    padding-top: 1rem;
 }
-
-/* #about-content,
-#card-section,
-#projects-section,
-form-section {
-    background-color: gray;
-} */
+.card {
+    height: 20rem;
+    margin-top: 4rem;
+   background-color: rgba(175, 171, 171, 0) !important;
+   box-shadow: 3px 3px 2rem rgba(0, 0, 0, 0.568);
+   border-radius: 8px !important;
+}
+.main-container {
+    padding: 0px !important;
+}
 
 
